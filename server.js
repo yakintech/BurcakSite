@@ -1,6 +1,6 @@
   
 var app = require('express')();
-var server = require('http').Server(app);
+var server = require('https').Server(app);
 
  app.get('/', function (req, res) {
     res.sendfile(__dirname + '/index.html');
