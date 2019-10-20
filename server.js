@@ -9,5 +9,5 @@ const PORT = process.env.PORT || 5000
 
 
   server.listen(PORT, function(){
-    console.log('listening on *:443');
+    console.log('listening on ' + PORT);
   });
